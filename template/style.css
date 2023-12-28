@@ -1,0 +1,93 @@
+.container {
+    text-align: center;
+    padding-left: 20px; /* Adjust the padding as needed */
+}
+/* Set list-style-position to inside for the ordered list */
+/* #income-list {
+    list-style-position: inside;
+} */
+
+/* Style the income table */
+#income-table {
+    margin: 0 auto;
+    width: 20%;
+    border-collapse: collapse;
+    margin-top: 15px; /* Add margin to separate the table from the list */
+}
+
+#income-table th, #income-table td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: centre;
+}
+
+#income-table th {
+    background-color: #f2f2f2;
+}
+
+#income-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#income-table tbody tr:hover {
+    background-color: #e5e5e5;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",;
+}
+
+.input-box {
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+input {
+    width: 10%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the button */
+button {
+    background-color: hsl(122, 88%, 24%); /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding around the text */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+}
+
+
+/* Style for the select element */
+select {
+    padding: 5px; /* Adjust padding */
+    font-size: 16px; /* Adjust font size */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure proper sizing */
+    width: 10%; /* Full width */
+}
+
+/* Optional: Style for when the select element is focused */
+select:focus {
+    outline: none; /* Remove the default focus outline */
+    border-color: #4CAF50; /* Change border color on focus */
+}
+
+/* Optional: Style for when the select element is hovered */
+select:hover {
+    border-color: #45a049; /* Change border color on hover */
+}
